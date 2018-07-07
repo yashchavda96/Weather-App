@@ -1,0 +1,77 @@
+body {
+	font-family: 'Roboto';
+	color: #fff;
+	background-color: #546e7a;
+}
+h1 {
+	font-size: 64px;
+	text-shadow: 2px 2px #000;
+}
+#location {
+	padding: 1rem;
+}
+img {
+	padding: 0.5rem;
+}
+#weather-details {
+	margin: 1rem;
+}
+#temp-desc {
+	padding: 0.5rem;
+}
+#weather-card {
+	visibility: hidden;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 2px;
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+	box-shadow: 2px 4px #555555;
+}
+button {
+	padding: 6px 8px 8px 8px;
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	margin-right: 4px;
+}
+#weather-desc {
+	padding: 0.5rem;
+}
+.clear {
+	background: url("https://images.pexels.com/photos/247600/pexels-photo-247600.jpeg?dl&fit=crop&crop=entropy&w=1280&h=807") no-repeat center fixed; 
+	background-size: cover;
+}
+.smoke {
+	background: url("https://images.pexels.com/photos/691574/pexels-photo-691574.jpeg?dl&fit=crop&crop=entropy&w=1280&h=832") no-repeat center fixed; 
+	background-size: cover;
+}
+.rain {
+	background: url("https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?dl&fit=crop&crop=entropy&w=1280&h=853") no-repeat center fixed; 
+	background-size: cover;
+}
+
+.clouds {
+	background: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?dl&fit=crop&crop=entropy&w=1280&h=853") no-repeat center fixed; 
+	background-size: cover;
+}
+a, a:hover {
+	text-shadow: 2px 2px #000;
+	color: #fff;
+	font-size: medium;
+	text-decoration: none;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 4px;
+}
+#weather-card {
+  transition: color 1s linear;
+  -webkit-transition: color 1s linear;
+  -moz-transition: color 1s linear;
+}

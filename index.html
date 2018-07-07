@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700,400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container text-center">
+	<h1>Weather App</h1>
+	</div>
+	<br><br>
+	<div id="weather-card">
+		<h2 id="location"></h2>
+		<div id="weather-details">
+			<img alt="icon" id="temp-icon"><span id="temp-desc"> °C </span>
+			<br>
+			<p id="weather-desc"></p>
+			<button id="refreshBtn" type="button"><span class="glyphicon glyphicon-refresh" aria-hidden="true"> Refresh</span></button>
+			<button id="toggleTempBtn" type="button"> Switch to °F</button>
+
+		</div>
+	</div>
+	<footer class="text-center">
+		Designed by <a href="https://codepen.io/yashchavda96/" target="blank">Yash Chavda</a>
+	</footer>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
